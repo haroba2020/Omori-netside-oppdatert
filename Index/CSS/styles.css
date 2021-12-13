@@ -1,0 +1,289 @@
+body{
+    margin: 0px;
+    width: auto;
+    height: auto;
+   
+}
+
+/* Title */
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.center video{
+    pointer-events: none;
+    object-fit: contain;
+}
+/* @media screen and (max-width: 1600px){
+    
+} */
+/* Navigation */
+nav{
+    padding: 20px;
+    top: 104px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 40px;
+}
+nav li{
+    width: 100px;
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    background: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 1%;
+    border: 24px;
+    border: 2px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li:hover{
+    position: relative;
+    top: -4px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+footer p{
+    text-align: center;
+    color: gray;
+}
+footer img{
+    display: flex;
+}
+footer .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+  }
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials img{
+      margin-left: 3px;
+      margin-right: 3px;
+      width: 40px;
+}
+/* Omori comic img links */
+.images{
+    display: flex;
+    justify-content: center;
+}
+.images img{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/* Return from comic page */
+.lightbulb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+  }
+  .lightbulb img{
+      width: 80px;
+      position: relative;
+      left: -137%;
+  }
+  .lightbulb img:hover{
+    width: 85px;
+}
+  .images img:hover{
+    position: relative;
+    top: -4px;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.omocat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact{
+    text-align: center;
+}
+/* About omori */
+.about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about p{
+    text-align: center;
+    margin-top: 60px; ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about .warning p{
+    text-align: center;
+    margin-top: 10px; ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+.about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+/* something */
+.something img{
+    position: relative;
+    top: -100px;
+    left: 50px;
+    opacity: 15%;
+}
+/* Omori music team */
+.pedro_music{
+    align-content: center;
+    display:flex;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+.pedro_music p{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: auto;
+    display: flex;
+    border: 24px;
+    border: 4px solid black;
+    padding: 3px;
+}
+.pedro_music img{
+    display: inline-block;
+    width: 203px;
+    height: 199px;
+    position: relative;
+    top: 16px;
+}
+.duet{
+    display: block;
+    margin-left:50%;
+    margin-right:50%;
+}
+    @media screen and (max-width: 2200px){
+        .duet{
+            display: block;
+            margin-left:60%;
+            margin-right:40%;
+        }
+}
+.music_title h1{
+    text-align: center;
+}
+.title_pedro{
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+}
+
+.bo_en_music{
+    align-content: center;
+    display:flex;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+.bo_en_music p{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: auto;
+    display: flex;
+    border: 24px;
+    border: 4px solid black;
+    padding: 3px;
+}
+.bo_en_music img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+    position: relative;
+    top: 16px;
+}
+.title_bo_en{
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+}
+.my_time{
+    display: block;
+    margin-left:50%;
+    margin-right:50%;
+}
+    @media screen and (max-width: 2200px){
+        .my_time{
+            display: block;
+            margin-left:60%;
+            margin-right:40%;
+        }
+}
+.clover_music{
+    align-content: center;
+    display:flex;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+.clover_music p{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: auto;
+    display: flex;
+    border: 24px;
+    border: 4px solid black;
+    padding: 3px;
+}
+.clover_music img{
+    display: inline-block;
+    width: 203px;
+    height: 203px;
+    margin-left: 5px;
+    position: relative;
+    top: 16px;
+}
+.title_clover{
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+}
+.white_space_music{
+    display: block;
+    margin-left:50%;
+    margin-right:50%;
+}
+    @media screen and (max-width: 2200px){
+        .white_space_music{
+            display: block;
+            margin-left:60%;
+            margin-right:40%;
+        }
+}

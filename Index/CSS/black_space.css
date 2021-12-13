@@ -1,0 +1,13 @@
+/* Black space... (it's a secret shhhhh) */
+body{
+    background-color: black;
+}
+img{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+audio{
+    opacity: 100%;
+}
